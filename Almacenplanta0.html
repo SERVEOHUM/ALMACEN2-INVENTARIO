@@ -2,67 +2,130 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Inventario del Armario</title>
+  <title>Inventario Planta 0 - Refrigerantes</title>
   <style>
     body {
-      font-family: sans-serif;
-      background-color: #f4f4f4;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h1 {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
       color: #333;
     }
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 20px;
-      max-width: 1200px;
-      margin: auto;
+    .contenedor {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 2px solid rgb(255, 78, 0);
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
-    .producto {
-      background: white;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 15px;
-      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    h1 {
+      text-align: center;
+      color: rgb(255, 78, 0);
+      margin-bottom: 30px;
     }
 
-    .producto img {
-      max-width: 100%;
-      max-height: 200px;
-      object-fit: contain;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 16px;
     }
 
-    .producto p {
-      margin: 5px 0;
+    th, td {
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+      text-align: center;
     }
 
-    .producto a {
-      display: inline-block;
-      margin-top: 10px;
-      color: #007BFF;
+    th {
+      background-color: rgb(255, 78, 0);
+      color: white;
+      font-weight: 600;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    a {
       text-decoration: none;
+      color: rgb(255, 78, 0);
       font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+  <div class="contenedor">
+    <h1>Inventario Planta 0 </h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre del Gas</th>
+          <th>Capacidad (kg)</th>
+          <th>Ficha Técnica</th>
+          <th>Ficha de Seguridad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>R-407C</td>
+          <td>44,3</td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/06/Ficha-Tecnica-R-407C-GS.pdf" target="_blank">Ver</a></td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/02/ficha-de-seguridad-r-407c-gas-servei.pdf" target="_blank">Ver</a></td>
+        </tr>
+        <tr>
+          <td>R-134A</td>
+          <td>25,5</td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/11/Ficha-Tecnica-R-134a-GS-2024-MX.pdf" target="_blank">Ver</a></td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/02/ficha-de-seguridad-r-134a-gas-servei.pdf" target="_blank">Ver</a></td>
+        </tr>
+         <tr>
+          <td>R-410A</td>
+          <td>25,5</td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/11/Ficha-Tecnica-R-134a-GS-2024-MX.pdf" target="_blank">Ver</a></td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/02/ficha-de-seguridad-r-410a-gas-servei-1078.pdf" target="_blank">Ver</a></td>
+        </tr>
+         <tr>
+          <td>Nitrógeno</td>
+          <td>7,2</td>
+          <td><a href="https://oxiviva.com/wp-content/uploads/2018/05/DAGI-048.00-FT-NITROGENO.pdf" target="_blank">Ver</a></td>
+          <td><a href="https://argoco.es/storage/safety-data-sheets/February2019/om7F996IpoOGKCIwYA92.pdf" target="_blank">Ver</a></td>
+        </tr>
+         <tr>
+          <td> Oxígeno</td>
+          <td>25,5</td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/11/Ficha-Tecnica-R-134a-GS-2024-MX.pdf" target="_blank">Ver</a></td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/02/ficha-de-seguridad-r-134a-gas-servei.pdf" target="_blank">Ver</a></td>
+        </tr>
+         <tr>
+          <td>R-134A</td>
+          <td>25,5</td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/11/Ficha-Tecnica-R-134a-GS-2024-MX.pdf" target="_blank">Ver</a></td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/02/ficha-de-seguridad-r-134a-gas-servei.pdf" target="_blank">Ver</a></td>
+        </tr>
+         <tr>
+          <td>R-134A</td>
+          <td>25,5</td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/11/Ficha-Tecnica-R-134a-GS-2024-MX.pdf" target="_blank">Ver</a></td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/02/ficha-de-seguridad-r-134a-gas-servei.pdf" target="_blank">Ver</a></td>
+        </tr>
+         <tr>
+          <td>R-134A</td>
+          <td>25,5</td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/11/Ficha-Tecnica-R-134a-GS-2024-MX.pdf" target="_blank">Ver</a></td>
+          <td><a href="https://gas-servei.com/wp-content/uploads/2024/02/ficha-de-seguridad-r-134a-gas-servei.pdf" target="_blank">Ver</a></td>
+        </tr>
+        
+        
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
 
-  <h1>Inventario Armario del almacén 2</h1>
-
-  <div class="grid">
-
-    <div class="producto">
-      <h2>White Lithium Grease</h2>
-      <img src="https://media-pim.rubix.com/medias/product_image_2d_for_external_use/86/34/1600000343486/PCI31WhiteLithiumGrease-515Wx515H.jpg?v=220808171600+0200" alt="White Lithium Grease">
-      <p><strong>Función:</strong>Lubricante</p>
-      <p><strong>Stock:</strong> 1 unidad</p>
-      <p><strong>Marca:</strong> CRC</p>
-      <p><strong>Capacidad:</strong> 500 ml </p>
-    <a href="http://www.crceurope.com/wwwcrc/tds/TCA6%20WHLITGR.PDF" target="_blank">🔗 Ver ficha técnica</a>
-    <a href="https://www.ferreteriacampollano.com/index.php?controller=attachment&id_attachment=588" target="_blank">🧯 Ver ficha de seguridad</a>
- </div>
